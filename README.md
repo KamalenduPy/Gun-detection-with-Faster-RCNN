@@ -46,6 +46,7 @@ ISSUES:
 
 - If you get this error:
 - if test.py doesn’t give any bbox output. Then remove the command sign of the check points. And debug in test.py.
+
 -`ValueError: There is a negative shape in the graph!`    
     than update keras to the newest version
 - This repo was developed using `python2`. `python3` should work thanks to the contribution of a number of users.
