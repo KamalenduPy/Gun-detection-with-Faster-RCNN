@@ -1,10 +1,10 @@
 # Gun-detection-with-Faster-RCNN
 Faster RCNN has been used for weapon detection in real time
 # keras-frcnn
-Keras implementation of Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks.
+Keras implementation of Faster R-CNN: Real-Time Object Detection with Region Proposal Networks(RPN).
 cloned from https://github.com/yhenon/keras-frcnn/
 
-USAGE:
+USE:
 - Both theano and tensorflow backends are supported. However compile times are very high in theano, and tensorflow is highly recommended.
 
 -gun data https://sci2s.ugr.es/sites/default/files/files/TematicWebSites/WeaponsDetection/BasesDeDatos/WeaponS.zip
@@ -34,7 +34,7 @@ images:
     `python test_frcnn.py -p /path/to/test_data/`
 - Data augmentation can be applied by specifying `--hf` for horizontal flips, `--vf` for vertical flips and `--rot` for 90 degree rotations
 
--	If you have bounding box data on csv file, you can use annotation.py file to convert it to text file.
+-	If you have bounding box data on csv file, you can use annot.py file to convert it to text file.
 
 NOTES:
 - config.py contains all settings for the train or test run. The default settings match those in the original Faster-RCNN
