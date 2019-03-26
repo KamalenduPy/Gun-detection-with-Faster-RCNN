@@ -6,7 +6,9 @@ cloned from https://github.com/yhenon/keras-frcnn/
 
 USAGE:
 - Both theano and tensorflow backends are supported. However compile times are very high in theano, and tensorflow is highly recommended.
+
 -gun data https://sci2s.ugr.es/sites/default/files/files/TematicWebSites/WeaponsDetection/BasesDeDatos/WeaponS.zip
+
 -gun bounding box !wget https://sci2s.ugr.es/sites/default/files/files/TematicWebSites/WeaponsDetection/BasesDeDatos/WeaponS_bbox.zip
 - `train_frcnn.py` can be used to train a model.
 - simple_parser.py provides an alternative way to input data, using a text file. Simply provide a text file, with each
